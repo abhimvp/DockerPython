@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+develop-eggs/
+dist/
+build/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+.bdist.cache
+
+# PyInstaller
+#  Usually these files are written to the dist/ directory, but if we use --onedir mode, this will not happen
+#  However, we don't want to commit these generated files into version control, so we add them here
+build/
+dist/
+__pycache__/
+
+# Environments
+.env
+.venv
+env.bak
+env.save
+
+# Poetry
+poetry.lock
+
+# mypy cache
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage data
+.coverage
+*.coverage
+*.dat
+
+# Temporary files
+*.swp
+*~
+# sqlite database files
+*.db
+*.sqlite
+
+# IDE specific files
+.idea/
+*.vscode/
+*.pydevproject
+*.ropeproject
+.project
+.settings/
+*.ipr
+*.iws
+
+# Static files and media (adjust as needed)
+static/
+media/
